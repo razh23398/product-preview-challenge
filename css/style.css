@@ -1,0 +1,99 @@
+/*------------------ Tag --------------------*/
+body{
+  margin: 0;
+  background-color: hsl(30, 38%, 92%)
+}
+img{
+  height: 30rem;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+h1{
+  font-family: 'Fraunces', serif;
+  text-align: left;
+  position: relative;
+  left: 30px;
+  top: 20px;
+  width: 70%;
+}
+
+/*------------------ Class --------------------*/
+.big-box{
+  display: flex;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.left-box{
+  position: relative;
+  margin: 0 0 0 auto;
+}
+.right-box{
+  position: relative;
+  background-color: white;
+  width: 320px;
+  height: 480px;
+  margin: 0 auto 0 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+}
+.textp{
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+  text-align: left;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  width: 80%;
+  letter-spacing: 5px;
+  font-size: 10px;
+}
+.text{
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+  text-align: left;
+  position: relative;
+  left: 30px;
+  top: 20px;
+  width: 80%;
+}
+.money1{
+  color: hsl(158, 36%, 37%);
+  width: 50%;
+  position: relative;
+  left: 30px;
+  top: 20px;
+  text-align: left;
+  font-family: 'Fraunces', serif;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.money2{
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+  width: 50px;
+  position: relative;
+  left: 210px;
+  bottom: 54px;
+}
+.myButton {
+  position: relative;
+  bottom: 20px;
+	background-color:#0a3d17;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	border:2px solid #0a3d17;
+	cursor:pointer;
+	color:#f2f2f2;
+	font-family:Arial;
+	font-size:21px;
+	padding:15px 56px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#000000;
+}
+
+/*------------------ ID --------------------*/
